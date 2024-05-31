@@ -554,6 +554,11 @@ video {
   --tw-contain-style:  ;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -594,14 +599,6 @@ video {
   height: 20rem;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-\[60px\] {
-  height: 60px;
-}
-
 .w-24 {
   width: 6rem;
 }
@@ -614,48 +611,16 @@ video {
   width: 1460px;
 }
 
+.w-\[300px\] {
+  width: 300px;
+}
+
 .w-\[780px\] {
   width: 780px;
 }
 
-.w-\[\] {
-  width: ;
-}
-
-.w-\[60px\] {
-  width: 60px;
-}
-
-.w-\[70px\] {
-  width: 70px;
-}
-
-.w-\[170px\] {
-  width: 170px;
-}
-
-.w-\[150px\] {
-  width: 150px;
-}
-
-.w-\[10px\] {
-  width: 10px;
-}
-
-.w-\[160px\] {
-  width: 160px;
-}
-
-.w-\[200px\] {
-  width: 200px;
-}
-
-.w-\[250px\] {
-  width: 250px;
-}
-
-.w-\[300px\] {
-  width: 300px;
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .grid-cols-4 {
@@ -664,6 +629,14 @@ video {
 
 .grid-rows-2 {
   grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-end {
@@ -690,8 +663,36 @@ video {
   gap: 1rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.rounded-\[\] {
+  border-radius: ;
+}
+
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
 }
 
 .rounded-l-none {
@@ -741,14 +742,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\#\] {
-  background-color: #;
-}
-
 .bg-\[url\(\'\.\/assets\/banner\.jpg\'\)\] {
   background-image: url('./assets/banner.jpg');
 }
@@ -763,6 +756,10 @@ video {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-2 {
@@ -787,6 +784,10 @@ video {
   padding-top: 0.5rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -800,6 +801,11 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-black {
